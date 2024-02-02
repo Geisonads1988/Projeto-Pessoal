@@ -16,6 +16,8 @@ header >p{
     font-weight: bolder;
     font-size: 28px;
     margin: 20px;
+   
+    
 }
 .link-titulo{
     margin: 20px;
@@ -42,6 +44,12 @@ h1{
     font-size: 50px;
     
 }
+main{
+    display:flex;
+    justify-content:space-evenly;
+    position: absolute;
+    
+}
 aside{
     background-color: white;
     max-width:50%;
@@ -59,4 +67,14 @@ aside >p,h2{
        text-align: center;
        margin-top: 80px;
 
+}
+article{
+    background-color: white;
+    max-width:50%;
+    background-color: rgba(231, 165, 22, 0.932);
+}
+.efeito{
+    position: relative;
+    bottom: 15px;
+    box-shadow: 13px 0px 20px rgba(0, 0, 0, 0.596);
 }
