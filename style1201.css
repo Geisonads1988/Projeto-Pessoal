@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.elemento{
+    color: #fff;
+    font-size: 32px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Position static ele fica poscionado onde foi criado e nao da pra mover de lugar */
+
+.elemento-estatico{
+    position: static;
+    background-color: crimson;
+}
+
+/* position relative e objeto relativo a posicionamento que e indicado. left e dado o espaçamento da esquerda para direita */
+.elemento-relativo{
+    position: relative;
+    background-color:coral;
+    left: 100px;
+}
+/* position absolute é um posicionamento absoluto que fica sobre todo o conteudo abaixo, ele cobre outras caixas */
+.elemento-absoluto{
+    position: absolute;
+    background-color: blueviolet;
+    left: 400px;
+}
+
+
+
+.elemento-relativo-com-filho{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(164, 165, 165);
+}
+.elemento-absoluto-com-pai{
+    position: absolute;
+    background-color: rgb(26, 158, 96);
+    right: 0;
+    bottom: 0;
+    width: 150px;
+    height: 150px;
+}
+.pai{
+    position: relative;
+    background-color: aquamarine;
+    width: 600px;
+    height: 600px;
+}
+.filho{
+    position: absolute;
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    right:200px;
+    top: 250px;
+    
+}
